@@ -8,7 +8,11 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-/* nav */
+body{
+    background-color: black;
+}
+
+/* header */
 
 header{
     width: 100%;
@@ -41,4 +45,42 @@ header{
     padding: 0.2em 0.3em;
     background-color: grey;
     border-radius: 0.3em;
+}
+
+/* main */
+
+main{
+   max-width: 90vw;
+   height: calc(100vh - 80px - 100px);
+   margin: 0 auto;
+   margin-top: 80px;
+   overflow-y: scroll;
+}
+
+.container-img{
+    display: flex;
+    gap: 0.5em;
+	margin-bottom: 0.4em;
+    height: auto;
+}
+
+.grid-img{
+    flex-basis: calc(100%/7 - 3em/7 );
+    object-fit: cover;
+    position: relative;
+}
+
+img{
+    height: 100px;
+    width: 188px;   
+}
+
+.icon-microphone{
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    filter: invert(1);
+    padding: 0.2em 0.3em;
+    background-color: rgba(128,128,128,0.8);
+    margin-bottom: 0.2em; 
 }
