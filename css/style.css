@@ -84,3 +84,137 @@ img{
     background-color: rgba(128,128,128,0.8);
     margin-bottom: 0.2em; 
 }
+
+/* footer */
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-icon{
+    display: flex;
+    margin: auto 1em;
+}
+
+.icon-left{
+    filter: invert(1);
+}
+
+.arrow-footer{
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.fa-microphone{
+    font-size: 30px;
+    padding: 0.2em 0.2em;
+}
+
+.text-mute{
+    font-size: 15px;
+    padding-left: 5px;  
+}
+
+.text-video{
+    font-size: 15px;
+    padding-left: 25px;  
+}
+
+.fa-video{
+    font-size: 30px;
+    padding: 0.2em 1.5em;
+}
+
+.fa-user-plus{
+    font-size: 30px;
+    padding: 0.2em 0.4em;
+}
+
+.fa-user-group{
+    font-size: 30px;
+    padding: 0.2em 1.2em;
+}
+
+.fa-chart-column{
+    font-size: 30px;
+    padding: 0.2em 0.7em;
+}
+
+.text-plus{
+    font-size: 15px;
+    padding-left: 5px;  
+}
+
+.text-group{
+    font-size: 15px;
+    padding-left: 5px;  
+}
+
+.text-chart{
+    font-size: 15px;
+    padding-left: 11px;  
+}
+
+.fa-share-from-square{
+    font-size: 30px;
+    padding: 0.2em 1.2em;
+    color: violet;
+}
+
+.text-share{
+    font-size: 15px;
+    padding-left: 11px;
+}
+
+.fa-comment{
+    font-size: 30px;
+    padding: 0.2em 0.7em;
+}
+
+.text-comment{
+    font-size: 15px;
+    padding-left: 11px;
+}
+
+.fa-record-vinyl{
+    font-size: 30px;
+    padding: 0.2em 0.7em;
+}
+
+.text-vinyl{
+    font-size: 15px;
+    padding-left: 11px;
+}
+
+.fa-stop{
+    font-size: 30px;
+    padding: 0.2em 1.7em;
+}
+
+.text-stop{
+    font-size: 15px;
+    padding-left: 11px;
+}
+
+.fa-ellipsis{
+    font-size: 30px;
+    padding: 0.2em 0.7em;
+}
+
+.text-ellipsis{
+    font-size: 15px;
+    padding-left: 16px;
+}
+
+.text-end{
+    width: 150px;
+    height: 100px;
+    color: brown;
+    background-color:rgba(128, 128, 128, 0.718);
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Fredoka One';
+    font-size: large;
+}
